@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title>Carnets de guerre d'Émile Faynot de Thilay, tenus au jour le jour.</title>
+            <author>Emile Faynot</author>
+            <respStmt>
+               <resp>Transcription et encoding en XML-TEI</resp>
+               <name>Lucie Ledieu</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Lucie Ledieu</publisher>
+            <date when="2025-01-26"/>
+            <availability status="free">
+               <p>This digital edition is available free of charge on github :
+                  https://github.com/Cateatspython/editingwarjournalsintheardennesduringwwi </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <region>Ardennes</region>
+                  <settlement>Charleville-Mézières</settlement>
+                  <repository>Archives départementales des Ardennes</repository>
+                  <idno>1NUM82</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary> This document is an extract from Emile Faynot's notebook, which he kept
+                     during the First World War in Thilay, a village in the Semoy valley in the
+                     Ardennes. </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>notebook</support>
+                        <extent>178 pages</extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>single column per page, text occupies entire width of the page,
+                           disordered handwriting, marginal notes</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Handwriting is somewhat disordered, with marginal notes written in
+                        the margins of the page</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date>1914-1918</date>
+                     <origPlace>Thilay and the Semoy Valley</origPlace>
+                  </origin>
+                  <provenance>Images digitized during two collections relating to the Great War and
+                     of interest to the Ardennes department</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+         </langUsage>
+         <settingDesc>
+            <setting>
+               <placeName>Thilay</placeName>
+               <date>1914-1918</date>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <person>
+               <persName>
+                  <surname>Faynot</surname>
+                  <forename>Emile</forename>
+                  <note>Emile Faynot was an industrialist, watercolorist and illustrator born in
+                     Lévrezy in 1878 and died in Thilay in 1962. He founded Établissements Faynot in
+                     1912. He was mayor of Thilay from 1917 to 1918, appointed by the Kommandatur
+                     following the conviction of the former mayor. </note>
+               </persName>
+            </person>
+         </particDesc>
+         <creation/>
+      </profileDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <div type="day" n="1">
+            <p>
+               <date when="1914-10-03"/>
+               <time when="07:00:00"/>
+               <persName xml:id="martin1" type="civil"/>
+               <placeName xml:id="grece1" type="pays"/>
+               <figure>
+                  <figDesc/>
+               </figure>
+               <sic/><corr/>
+               <list>
+                  <item/>
+               </list>
+               <num>768,90</num>
+               <unclear reason="illegible"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

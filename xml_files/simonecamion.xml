@@ -6,19 +6,16 @@
       <fileDesc>
          <titleStmt>
             <title>Title</title>
-            <author></author>
             <respStmt>
-               <resp></resp>
-               <name></name>
+               <resp/>
+               <name/>
             </respStmt>
          </titleStmt>
 
          <publicationStmt>
             <publisher/>
             <date when="2025-03-02"/>
-            <availability>
-               <p></p>
-            </availability>
+            <distributor/>
 
          </publicationStmt>
 
