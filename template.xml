@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+            <respStmt>
+               <resp/>
+               <name/>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher/>
+            <date when="2025-03-02"/>
+            <distributor/>
+
+         </publicationStmt>
+
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <repository/>
+                  <idno/>
+               </msIdentifier>
+               <msContents>
+                  <summary/>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support/>
+                        <extent/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date/>
+                     <origPlace/>
+                  </origin>
+                  <provenance/>
+               </history>
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident=""/>
+         </langUsage>
+         <settingDesc>
+            <setting>
+               <placeName/>
+               <date/>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <person>
+               <persName>
+                  <surname/>
+                  <forename/>
+                  <note/>
+               </persName>
+            </person>
+         </particDesc>
+         <creation/>
+
+      </profileDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <div type="day" n="1">
+            <p>
+               <date when="1914-10-03"/>
+               <time when="07:00:00"/>
+               <persName xml:id="martin1" type="civil"/>
+               <placeName xml:id="grece1" type="pays"/>
+               <figure>
+                  <figDesc/>
+               </figure>
+               <sic/><corr/>
+               <list>
+                  <item/>
+               </list>
+               <num>768,90</num>
+               <unclear reason="illegible"></unclear>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
