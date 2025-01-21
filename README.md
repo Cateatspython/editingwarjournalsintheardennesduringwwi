@@ -22,7 +22,9 @@ The transcription of the first three excerpts was carried out by me, based on th
 ## Presentation of the three extracts
 
 Les carnets de guerre d’Emile Faynot de Thilay : Emile Faynot was an industrialist but also an illustrator. During the First World War, he owned a bolt factory in Thilay. In 1917, he was even appointed mayor of the village after the former mayor was convicted. In his journal, he recounts the daily life in the Semoy Valley under German occupation.
+
 Le journal de guerre de Simone Camion de Vivier-au-court : Simone Camion was a young girl living in Villiers-au-Court. In her journal, she recounted her youth during the First World War.
+
 Le journal d’occupation rédigé par Henri Genesseau, boulanger à Hannogne-Saint-Martin : Henri Genesseau was a baker in the village of Hannogne-Saint-Martin. In his journal, he describes his daily life under German occupation, notably highlighting his interactions with the soldiers, which were frequent due to the nature of his profession involving food.
 
 These three journals all have a similar structure. They are made up of blocks of text corresponding to the observations described day by day. The first part contains information about the day and sometimes even the time. The second part is a account of the day. It is also useful to use tags to highlight important informations, such as the names of people, places or events. The digitized documents are under a public reuse license following the deliberations of February 2, 2018.
