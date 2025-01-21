@@ -5,20 +5,22 @@
 
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Journal d'occupation rédigé par Henri Genesseau, boulanger à
+               Hannogne-Saint-Martin.</title>
+            <author>Henri Genesseau</author>
             <respStmt>
-               <resp/>
-               <name/>
+               <resp>Transcription et encoding en XML-TEI</resp>
+               <name>Lucie Ledieu</name>
             </respStmt>
          </titleStmt>
-
          <publicationStmt>
-            <publisher/>
-            <date when="2025-03-02"/>
-            <distributor/>
-
+            <publisher>Lucie Ledieu</publisher>
+            <date when="2025-01-26"/>
+            <availability status="free">
+               <p>This digital edition is available free of charge on github :
+                  https://github.com/Cateatspython/editingwarjournalsintheardennesduringwwi </p>
+            </availability>
          </publicationStmt>
-
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -96,7 +98,7 @@
                   <item/>
                </list>
                <num>768,90</num>
-               <unclear reason="illegible"></unclear>
+               <unclear reason="illegible"/>
             </p>
          </div>
       </body>

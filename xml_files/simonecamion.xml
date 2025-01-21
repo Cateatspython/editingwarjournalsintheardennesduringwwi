@@ -5,20 +5,21 @@
 
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Journal de guerre de Simone Camion</title>
+            <author>Simone Camion</author>
             <respStmt>
-               <resp/>
-               <name/>
+               <resp>Transcription et encoding en XML-TEI</resp>
+               <name>Lucie Ledieu</name>
             </respStmt>
          </titleStmt>
-
          <publicationStmt>
-            <publisher/>
-            <date when="2025-03-02"/>
-            <distributor/>
-
+            <publisher>Lucie Ledieu</publisher>
+            <date when="2025-01-26"/>
+            <availability status="free">
+               <p>This digital edition is available free of charge on github :
+                  https://github.com/Cateatspython/editingwarjournalsintheardennesduringwwi </p>
+            </availability>
          </publicationStmt>
-
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -84,19 +85,41 @@
       <body>
          <div type="day" n="1">
             <p>
-               <date when="1914-10-03"/>
-               <time when="07:00:00"/>
-               <persName xml:id="martin1" type="civil"/>
-               <placeName xml:id="grece1" type="pays"/>
-               <figure>
-                  <figDesc/>
-               </figure>
-               <sic/><corr/>
-               <list>
-                  <item/>
-               </list>
-               <num>768,90</num>
-               <unclear reason="illegible"></unclear>
+               <date when="1914-08-06">Mardi 26 aout</date>
+               On a tiré toute la nuit : canon du côté de
+               <placeName xml:id="vrigne_aux_bois1" type="village">Vrigne-aux-Bois</placeName>
+               . fusillade vers
+               <placeName xml:id="lumes1" type="village">Lumes</placeName>
+               . A
+               <time when="04:00:00">4h du matin</time>
+               , Père a jugé prudent de nous trouver un abri à l'usine : Une cave voûtée, il n'en est pas question. Le souvenir des familles entières enfermées dans leurs caves voûtées par l'écroulement de maisons durant
+               <note type="event" place="mezieres">le siege de Mezières</note>
+               , et morts de faim, reste trop vivace. Dans le magasin de fer, entre les barres rangées en faisceaux, les obus ou leurs éclats ne nous toucheront pas avant d'avoir haché le fer !.. Il y a d'ailleurs des gens qui sont déjà venus se réfugier là.
+               <persName xml:id="mrbuvat1" type="civil">Monsieur Buvat</persName>
+               , malade et ne pouvant pas bouger est roulé dans ses couvertures avec son chien qui empêche qu'on approche. On a apporté de la paille, et on finit la nuit..
+               <del>et</del>
+               Nous rentrons à la maison !
+            </p>
+            <pb n="24"/>
+            <p>
+               Calme relatif. puis le soir nous montons au grenier : la ferme de
+               <placeName xml:id="manil1" type="lieu-dit">
+                  <abbr>
+                     Manil
+                     <expan>Le Manil</expan>
+                  </abbr>
+               </placeName>
+               brûle, beaucoup de fumée sur
+               <placeName xml:id="vrigne_meuse1" type="village">Vrigne-Meuse</placeName>
+               et
+               <placeName xml:id="sedan" type="ville">Sedan</placeName>
+               . Les batteries françaises et
+               <placeName xml:id="croix_piot1" type="lieu-dit">le Croix Piot</placeName>
+               se sont tues. Des Allemands sont entrés à la
+               <placeName xml:id="mairievivier1" type="batiment">Mairie</placeName>
+               . Ils ont pris 10 otages qu'ils y ont enfermés, et ont annoncé que les soldats logeraient chez les habitants . mais ils ne sont pas venus. Le
+               <placeName xml:id="depotfarinevivier1" type="batiment">dépot de farine de la commune</placeName>
+               , et les denrées chez les commerçants ont été enlevés et les maisons des émigrés pillées. Nous avons couché dans le vestibule.
             </p>
          </div>
       </body>
