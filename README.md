@@ -37,8 +37,8 @@ The digitized documents from Archives Départementales des Ardennes are under a 
 
 ## Additional Documentary Resources
 
-    Les documents de la guerre 1914-1918 - Site des archives départementales des Ardennes : https://archives.cd08.fr/arkotheque/navigation_facette/index.php?f=grandecollecte
-    Émile Faynot, industriel et peintre ardennais : https://archives.cd08.fr/article.php?larub=187&titre=emile-faynot-industriel-et-peintre-ardennais
-    Journal de guerre de Simone Camion : https://archives.cd08.fr/arkotheque/navigation_facette/fiche_detail.php?f=grandecollecte&ref1=9&mde_present=
-    Les carnets de guerre d’Emile Faynot à Thilay : https://archives.cd08.fr/arkotheque/navigation_facette/fiche_detail.php?f=grandecollecte&ref1=255&mde_present=
-    Le journal d’occupation rédigé par Henri Genesseau, boulanger à Hannogne-Saint-Martin : https://archives.cd08.fr/arkotheque/navigation_facette/fiche_detail.php?f=grandecollecte&ref1=2&mde_present=
+Les documents de la guerre 1914-1918 - Site des archives départementales des Ardennes : https://archives.cd08.fr/arkotheque/navigation_facette/index.php?f=grandecollecte
+Émile Faynot, industriel et peintre ardennais : https://archives.cd08.fr/article.php?larub=187&titre=emile-faynot-industriel-et-peintre-ardennais
+Journal de guerre de Simone Camion : https://archives.cd08.fr/arkotheque/navigation_facette/fiche_detail.php?f=grandecollecte&ref1=9&mde_present=
+Les carnets de guerre d’Emile Faynot à Thilay : https://archives.cd08.fr/arkotheque/navigation_facette/fiche_detail.php?f=grandecollecte&ref1=255&mde_present=
+Le journal d’occupation rédigé par Henri Genesseau, boulanger à Hannogne-Saint-Martin : https://archives.cd08.fr/arkotheque/navigation_facette/fiche_detail.php?f=grandecollecte&ref1=2&mde_present=
