@@ -11,18 +11,19 @@ We will thus be able to rely on automation tools and benefit from the collaborat
 
 ## Objectives of this project
 
-    The project aims to preserve civilian journals written during the First World War in the Ardennes by encoding them based on digitizations available on the website, using a sustainable format such as XML-TEI.
-    The transcription and editing of these documents, often difficult to read due to their condition or handwritten nature, make them more accessible by improving their legibility and enabling advanced search functionalities.
-    A potential future direction for the project could involve creating an interactive online resource, allowing for the exploration of texts, data visualization, and educational use, thus ensuring their accessibility and long-term preservation.
+The project aims to preserve civilian journals written during the First World War in the Ardennes by encoding them based on digitizations available on the website, using a sustainable format such as XML-TEI.
+The transcription and editing of these documents, often difficult to read due to their condition or handwritten nature, make them more accessible by improving their legibility and enabling advanced search functionalities.
+A potential future direction for the project could involve creating an interactive online resource, allowing for the exploration of texts, data visualization, and educational use, thus ensuring their accessibility and long-term preservation.
 
 ## Transcription of Documents
 
 The transcription of the first three excerpts was carried out by me, based on the digitized documents available on the website of the Archives départementales des Ardennes.
-Presentation of the three extracts
 
-    Les carnets de guerre d’Emile Faynot de Thilay : Emile Faynot was an industrialist but also an illustrator. During the First World War, he owned a bolt factory in Thilay. In 1917, he was even appointed mayor of the village after the former mayor was convicted. In his journal, he recounts the daily life in the Semoy Valley under German occupation.
-    Le journal de guerre de Simone Camion de Vivier-au-court : Simone Camion was a young girl living in Villiers-au-Court. In her journal, she recounted her youth during the First World War.
-    Le journal d’occupation rédigé par Henri Genesseau, boulanger à Hannogne-Saint-Martin : Henri Genesseau was a baker in the village of Hannogne-Saint-Martin. In his journal, he describes his daily life under German occupation, notably highlighting his interactions with the soldiers, which were frequent due to the nature of his profession involving food.
+## Presentation of the three extracts
+
+Les carnets de guerre d’Emile Faynot de Thilay : Emile Faynot was an industrialist but also an illustrator. During the First World War, he owned a bolt factory in Thilay. In 1917, he was even appointed mayor of the village after the former mayor was convicted. In his journal, he recounts the daily life in the Semoy Valley under German occupation.
+Le journal de guerre de Simone Camion de Vivier-au-court : Simone Camion was a young girl living in Villiers-au-Court. In her journal, she recounted her youth during the First World War.
+Le journal d’occupation rédigé par Henri Genesseau, boulanger à Hannogne-Saint-Martin : Henri Genesseau was a baker in the village of Hannogne-Saint-Martin. In his journal, he describes his daily life under German occupation, notably highlighting his interactions with the soldiers, which were frequent due to the nature of his profession involving food.
 
 These three journals all have a similar structure. They are made up of blocks of text corresponding to the observations described day by day. The first part contains information about the day and sometimes even the time. The second part is a account of the day. It is also useful to use tags to highlight important informations, such as the names of people, places or events. The digitized documents are under a public reuse license following the deliberations of February 2, 2018.
 
