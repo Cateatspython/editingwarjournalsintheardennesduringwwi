@@ -1,6 +1,8 @@
 # Editing war journals in the Ardennes during WWI
 Welcome to the Editing war journals in the Ardennes during WWI repository. This is a digital editing project focused on war journals from the Ardennes during World War I.
 
+__previous version of project__ : https://github.com/Cateatspython/warjournalsfromardennesduringwwi
+
 ## Project presentation
 
 This project is an extension of the initiative taken by the Archives départementales des Ardennes to put documents related to World War I in the region online. Various types of documents (journals, images, letters...) have already been digitized on the website, but they have not yet been encoded in XML-TEI.
