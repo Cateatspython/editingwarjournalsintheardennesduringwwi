@@ -37,7 +37,7 @@
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <support>notebook</support>
+                        <support>notebook in a squared notebook in black ink</support>
                         <extent>178 pages</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -55,7 +55,7 @@
                      <date>1914-1918</date>
                      <origPlace>Thilay and the Semoy Valley</origPlace>
                   </origin>
-                  <provenance>Images digitized during two collections relating to the Great War and
+                  <provenance>Images digitized during two collections relating to the WWI and
                      of interest to the Ardennes department</provenance>
                </history>
             </msDesc>
@@ -83,7 +83,6 @@
                </persName>
             </person>
          </particDesc>
-         <creation/>
       </profileDesc>
 
    </teiHeader>

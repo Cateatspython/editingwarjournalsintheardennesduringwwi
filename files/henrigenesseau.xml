@@ -24,35 +24,36 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country/>
-                  <region/>
-                  <settlement/>
-                  <repository/>
-                  <idno/>
+                  <country>France</country>
+                  <region>Ardennes</region>
+                  <settlement>Charleville-Mézières</settlement>
+                  <repository>Archives départementales des Ardennes</repository>
+                  <idno>2Num001</idno>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary>This is a journal written by Henri Genesseau during WWI from 1914 to 1915 only</summary>
                </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <support/>
-                        <extent/>
+                        <support>notebook in a squared notebook in black ink</support>
+                        <extent>70 pages</extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout/>
+                        <layout>single column per page</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote>regular writing along the lines of the notebook pages</handNote>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
-                     <date/>
-                     <origPlace/>
+                     <date>1914-1915</date>
+                     <origPlace>Hannogne-Saint-Martin</origPlace>
                   </origin>
-                  <provenance/>
+                  <provenance>Images digitized during two collections relating to the WWI and
+                     of interest to the Ardennes department</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -60,27 +61,24 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident=""/>
+            <language ident="fr">French</language>
          </langUsage>
          <settingDesc>
             <setting>
-               <placeName/>
-               <date/>
+               <placeName>Hannogne-Saint-Martin</placeName>
+               <date>1914-1915</date>
             </setting>
          </settingDesc>
          <particDesc>
             <person>
                <persName>
-                  <surname/>
-                  <forename/>
-                  <note/>
+                  <surname>Genesseau</surname>
+                  <forename>Henri</forename>
+                  <note>Henri Genesseau was a baker living in Hannogne during the First World War. Very little is known about him.</note>
                </persName>
             </person>
          </particDesc>
-         <creation/>
-
       </profileDesc>
-
    </teiHeader>
    <text>
       <body>

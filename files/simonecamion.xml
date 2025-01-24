@@ -23,63 +23,60 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country/>
-                  <region/>
-                  <settlement/>
-                  <repository/>
-                  <idno/>
+                  <country>France</country>
+                  <region>Ardennes</region>
+                  <settlement>Charleville-Mézières</settlement>
+                  <repository>Archives départementales des Ardennes</repository>
+                  <idno>2Num004</idno>
                </msIdentifier>
                <msContents>
-                  <summary/>
+                  <summary>This document is a journal written by Simone Camion during WWI.</summary>
                </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
-                        <support/>
-                        <extent/>
+                        <support>notebook in black ink in a small grid notebook</support>
+                        <extent>300 pages</extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout/>
+                        <layout>single column per page</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote/>
+                     <handNote>regular writing along the lines of the notebook pages</handNote>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
-                     <date/>
-                     <origPlace/>
+                     <date>1914-1918</date>
+                     <origPlace>Vivier-au-Court</origPlace>
                   </origin>
-                  <provenance/>
+                  <provenance>Images digitized during two collections relating to the WWI and
+                     of interest to the Ardennes department</provenance>
                </history>
             </msDesc>
          </sourceDesc>
-
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident=""/>
+            <language ident="fr">French</language>
          </langUsage>
          <settingDesc>
             <setting>
-               <placeName/>
-               <date/>
+               <placeName>Vivier-au-Court</placeName>
+               <date>1914-1918</date>
             </setting>
          </settingDesc>
          <particDesc>
             <person>
                <persName>
-                  <surname/>
-                  <forename/>
-                  <note/>
+                  <surname>Camion</surname>
+                  <forename>Simone</forename>
+                  <note>Simone Camion was a young girl living in Vivier-au-Court during the First World War. We know very little about her.</note>
                </persName>
             </person>
          </particDesc>
-         <creation/>
-
       </profileDesc>
-
    </teiHeader>
    <text>
       <body>
