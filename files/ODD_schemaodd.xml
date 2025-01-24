@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/ODD_schemaodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="short">editingwarjournals</title>
             <title>ODD customization for editing war journals from the Ardennes during WWI</title>
             <author>Lucie Ledieu</author>
             <respStmt>
@@ -15,30 +15,34 @@
             <p>This ODD schema is released under the MIT License.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref
+            <p>Derived from
                   target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base
-                  odd</ref> after an analysis of 3 files in
+                  odd after an analysis of 3 files in
                file:/home/lucie-ledieu/Documents/editingwarjournalsintheardennesduringwwi/files/</p>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p> This project aims to create a digital edition of war journals written in the
-               Ardennes during World War I. The resulting TEI files are encoded with a customized
-               ODD schema, enabling the addition of metadata, structured content, and potential for
-               future analysis or reuse. </p>
-         </projectDesc>
-         <samplingDecl>
-            <p> The sample for this ODD file consists of three selected extracts of war journals,
-               chosen for their diversity in content and structure. The schema covers elements for
-               encoding events, dates, locations, and personal annotations. </p>
-         </samplingDecl>
-      </encodingDesc>
+
    </teiHeader>
    <text>
       <body>
-         <schemaSpec ident="oddbyexample" start="TEI ">
+            <p>
+         <schemaSpec ident="oddbyexample" start="TEI">
             <moduleRef key="tei"/>
+            
+            <elementSpec ident="persName" mode="change">
+               <attList>
+                  <attDef ident="type">
+                     <datatype>
+                        <valList>
+                           <valItem ident="civil"/>
+                           <valItem ident="militaire"/>
+                        </valList>
+                     </datatype>
+                     <desc>Choice between civilian or military for persName</desc>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            
             <!--Checking module textcrit-->
             <classRef key="att.textCritical"/>
             <classRef key="model.rdgLike"/>
@@ -505,6 +509,7 @@
             <!--Checking module corpus-->
             <moduleRef key="corpus" include="particDesc settingDesc setting"/>
          </schemaSpec>
+            </p>
       </body>
    </text>
 </TEI>
