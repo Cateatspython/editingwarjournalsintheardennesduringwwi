@@ -3,16 +3,37 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="short">oddbyexample</title>
-            <title>ODD by Example customization</title>
+            <title type="short">editingwarjournals</title>
+            <title>ODD customization for editing war journals from the Ardennes during WWI</title>
+            <author>Lucie Ledieu</author>
+            <respStmt>
+               <resp>Customization of the ODD schema</resp>
+               <name>Lucie Ledieu</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Unpublished first draft </p>
+            <p>This ODD schema is released under the MIT License.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 3 files in file:/home/lucie-ledieu/Documents/editingwarjournalsintheardennesduringwwi/files/</p>
+            <p>Derived from <ref
+                  target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base
+                  odd</ref> after an analysis of 3 files in
+               file:/home/lucie-ledieu/Documents/editingwarjournalsintheardennesduringwwi/files/</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p> This project aims to create a digital edition of war journals written in the
+               Ardennes during World War I. The resulting TEI files are encoded with a customized
+               ODD schema, enabling the addition of metadata, structured content, and potential for
+               future analysis or reuse. </p>
+         </projectDesc>
+         <samplingDecl>
+            <p> The sample for this ODD file consists of three selected extracts of war journals,
+               chosen for their diversity in content and structure. The schema covers elements for
+               encoding events, dates, locations, and personal annotations. </p>
+         </samplingDecl>
+      </encodingDesc>
    </teiHeader>
    <text>
       <body>
@@ -33,7 +54,7 @@
             <!--Checking module msdescription-->
             <classRef key="model.physDescPart"/>
             <moduleRef key="msdescription"
-                       include="msDesc origPlace msIdentifier repository msContents summary physDesc objectDesc supportDesc support layoutDesc layout handDesc history origin provenance"/>
+               include="msDesc origPlace msIdentifier repository msContents summary physDesc objectDesc supportDesc support layoutDesc layout handDesc history origin provenance"/>
             <elementSpec ident="msDesc" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
@@ -85,7 +106,9 @@
             <!--Checking module namesdates-->
             <classRef key="model.persNamePart"/>
             <moduleRef key="namesdates"
-                       include="persName surname forename placeName country region settlement person"/>
+               include="persName surname forename placeName country region settlement person"/>
+            <!-- persName is a tag used with a unique id and a type (civilian or military) to indicate the presence of a person's name.  -->
+            <!-- placeName> is a tag used with a unique identifier and a type to define the nature of the designated place (village, lieu-dit, pays). -->
             <elementSpec ident="persName" mode="change">
                <attList>
                   <attDef ident="calendar" mode="delete"/>
@@ -282,7 +305,16 @@
             </classSpec>
             <!--Checking module core-->
             <moduleRef key="core"
-                       include="p sic corr del unclear name num measure date time abbr expan list item note pb author respStmt resp title publisher"/>
+               include="p sic corr del unclear name num measure date time abbr expan list item note pb author respStmt resp title publisher"/>
+            <!-- sic indicates the presence of a spelling error or a repetition of a word. It is used with corr to correct the text. -->
+            <!-- del indicates the presence of an erasure. -->
+            <!-- unclear with reason “illegible” shows the presence of an unreadable word -->
+            <!-- num indicates the presence of a number -->
+            <!-- measure indicates the presence of a measure with quantity and unit -->
+            <!-- date and time are used with the when attribute, which indicates the exact date and time (for example, in some texts there is only the day and no month) -->
+            <!-- abbr indicates the presence of an abbreviation and expan is used to resolve the abbreviation -->
+            <!-- list and item are used together: list indicates the start and end of a list, and item each item in the list. -->
+            <!-- pb signals a page change with n designating the next page number -->
             <elementSpec ident="corr" mode="change">
                <attList>
                   <attDef ident="type" mode="delete"/>
@@ -400,7 +432,7 @@
             </elementSpec>
             <!--Checking module header-->
             <moduleRef key="header"
-                       include="teiHeader fileDesc titleStmt extent publicationStmt idno availability sourceDesc profileDesc handNote langUsage language"/>
+               include="teiHeader fileDesc titleStmt extent publicationStmt idno availability sourceDesc profileDesc handNote langUsage language"/>
             <elementSpec ident="idno" mode="change">
                <attList>
                   <attDef ident="calendar" mode="delete"/>
@@ -461,6 +493,7 @@
                </attList>
             </elementSpec>
             <elementSpec ident="div" mode="change">
+               <!-- div is used with the day attribute to indicate a change of day in the notebook -->
                <attList>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
