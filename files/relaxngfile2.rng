@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="TEI">
+      <attribute>
+        <name ns="http://www.w3.org/XML/1998/namespace">lang</name>
+        <data type="NCName"/>
+      </attribute>
+      <element name="teiHeader">
+        <element name="fileDesc">
+          <element name="titleStmt">
+            <element name="title">
+              <text/>
+            </element>
+            <element name="author">
+              <text/>
+            </element>
+            <element name="respStmt">
+              <element name="resp">
+                <text/>
+              </element>
+              <element name="name">
+                <text/>
+              </element>
+            </element>
+          </element>
+          <element name="publicationStmt">
+            <ref name="p"/>
+          </element>
+          <element name="sourceDesc">
+            <ref name="p"/>
+          </element>
+        </element>
+      </element>
+      <element name="text">
+        <element name="body">
+          <ref name="p"/>
+        </element>
+      </element>
+    </element>
+  </start>
+  <define name="p">
+    <element name="p">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <element name="schemaSpec">
+            <attribute name="ident">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="start">
+              <data type="NCName"/>
+            </attribute>
+            <oneOrMore>
+              <choice>
+                <element name="classRef">
+                  <attribute name="key">
+                    <data type="NCName"/>
+                  </attribute>
+                </element>
+                <element name="classSpec">
+                  <attribute name="ident">
+                    <data type="NCName"/>
+                  </attribute>
+                  <attribute name="mode">
+                    <data type="NCName"/>
+                  </attribute>
+                  <attribute name="type">
+                    <data type="NCName"/>
+                  </attribute>
+                  <ref name="attList"/>
+                </element>
+                <element name="elementSpec">
+                  <attribute name="ident">
+                    <data type="NCName"/>
+                  </attribute>
+                  <attribute name="mode">
+                    <data type="NCName"/>
+                  </attribute>
+                  <ref name="attList"/>
+                </element>
+                <element name="moduleRef">
+                  <optional>
+                    <attribute name="include"/>
+                  </optional>
+                  <attribute name="key">
+                    <data type="NCName"/>
+                  </attribute>
+                </element>
+              </choice>
+            </oneOrMore>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="attList">
+    <element name="attList">
+      <oneOrMore>
+        <element name="attDef">
+          <attribute name="ident">
+            <data type="NCName"/>
+          </attribute>
+          <optional>
+            <attribute name="mode">
+              <data type="NCName"/>
+            </attribute>
+          </optional>
+          <optional>
+            <choice>
+              <ref name="valList"/>
+              <group>
+                <element name="datatype">
+                  <ref name="valList"/>
+                </element>
+                <element name="desc">
+                  <text/>
+                </element>
+              </group>
+            </choice>
+          </optional>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="valList">
+    <element name="valList">
+      <optional>
+        <attribute name="mode">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <element name="valItem">
+          <attribute name="ident">
+            <data type="NCName"/>
+          </attribute>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+</grammar>
